@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let str = prompt("Nhập vào 1 mảng ký tự");
+  let arr = str.split("");
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === "-") {
+      arr[i] = "_"
+    }
+  }
+
+  document.write(arr.join(""))
+</script>
+</body>
+</html>
